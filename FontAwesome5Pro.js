@@ -9,15 +9,15 @@ import glyphMap from './glyphmaps/FontAwesome5Pro.json';
 import metadata from './glyphmaps/FontAwesome5Pro_meta.json';
 
 export { FA5Style } from './lib/create-icon-set-from-fontawesome5';
-
+console.log("FONT AWESOME 5 PRO", glyphMap["hands-wash"]);
 const iconSet = createFA5iconSet(glyphMap, metadata, true);
 
 export default iconSet;
 export const {
-  Button,
-  TabBarItem,
-  TabBarItemIOS,
-  ToolbarAndroid,
-  getImageSource,
-  getImageSourceSync,
+	Button,
+	TabBarItem,
+	TabBarItemIOS,
+	ToolbarAndroid,
+	getImageSource,
+	getImageSourceSync,
 } = iconSet;
